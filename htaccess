@@ -1,0 +1,11 @@
+RewriteEngine on
+ErrorDocument 404 http://localhost/OneTech/404.php
+ErrorDocument 403 http://localhost/OneTech/404.php
+ErrorDocument 505 http://localhost/OneTech/404.php
+ErrorDocument 500 http://localhost/OneTech/404.php
+Options -Indexes
+<FilesMatch "\.(xml|inc|ini)$">
+
+Deny from all
+
+</FilesMatch>

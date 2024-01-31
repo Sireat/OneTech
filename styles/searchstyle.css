@@ -1,0 +1,97 @@
+/* CSS Styles for the e-commerce app */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product p {
+    margin: 10px 0;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .header_search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .header_search_form_container {
+    position: relative;
+  }
+  
+  .header_search_input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .custom_dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .custom_dropdown_placeholder {
+    display: block;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .custom_dropdown_list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    display: none;
+    min-width: 150px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .custom_dropdown_list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .custom_dropdown_list li {
+    margin-bottom: 5px;
+  }
+  
+  .custom_dropdown_list li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .custom_dropdown_list li a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .header_search_button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Additional styles can be added as per your requirements */
+  
