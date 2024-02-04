@@ -1,1 +1,1 @@
-Read me file is necessary
+Read me file is necessary for anyone
