@@ -1,1 +1,1 @@
-Read me file is necessary for anyone and others for the
+Read me file is necessary for anyone and others for the user
