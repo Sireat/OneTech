@@ -35,8 +35,6 @@ if(isset($_SESSION['User_Name']))
 	<link rel="stylesheet" type="text/css" href="plugins/slick-1.8.0/slick.css">
 	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
-
-
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="apple-touch-icon" href="images/icon.png">
